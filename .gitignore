@@ -1,0 +1,4 @@
+__pycache__
+/venv
+/dice_game_bot/db/database.sqlite3
+/.env
