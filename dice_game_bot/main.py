@@ -26,7 +26,7 @@ DATABASE_FILE: str
 
 
 def _load_env() -> None:
-    """Docstring."""
+    """Загружает переменные окружения из .env."""
     global BOT_TOKEN, DATABASE_FILE
 
     load_dotenv()
@@ -38,7 +38,9 @@ def _load_env() -> None:
 
 
 async def main() -> None:
-    """If __name__ == "__main__"."""
+    """Настраивает и запускает бота."""
+    global BOT_TOKEN, DATABASE_FILE
+
     _load_env()
     print("[#] Переменные окружения загружены.")
 

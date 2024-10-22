@@ -11,5 +11,5 @@ from locales.button import menu
 __keyboard: List[List[KeyboardButton]] = [
     [KeyboardButton(text=menu)]
 ]
-to_menu: Final = ReplyKeyboardMarkup(keyboard=__keyboard,
-                                     resize_keyboard=True)
+reply_to_menu: Final = ReplyKeyboardMarkup(keyboard=__keyboard,
+                                           resize_keyboard=True)

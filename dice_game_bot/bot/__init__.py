@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
-"""/dice_game_bot/bot/__init__.py."""
+"""Инструменты для создания и получения объектов бота и диспетчера."""
 
 from .bot import get_bot, get_dispatcher, init

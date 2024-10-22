@@ -14,14 +14,14 @@ def __include_routers() -> None:
     """Добавляет все роутеры в диспетчер."""
     global __dispatcher
 
-    __dispatcher.include_routers(router_handlers)
+    __dispatcher.include_router(router_handlers)
 
 
 def get_bot() -> Bot:
     """Возвращает объект бота.
 
     Returns:
-        Bot: Объект бота aiogram.
+        aiogram.Bot: Объект бота aiogram.
     """
     return __bot
 
@@ -30,7 +30,7 @@ def get_dispatcher() -> Dispatcher:
     """Возвращает объект диспетчера.
 
     Returns:
-        Dispatcher: Объект диспетчера aiogram.
+        aiogram.Dispatcher: Объект диспетчера aiogram.
     """
     return __dispatcher
 

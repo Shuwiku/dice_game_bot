@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-"""/dice_game_bot/data/utils/__init__.py."""
+"""Вспомогательные функции для работы с базой данных.
+
+Нужны, в основном, чтобы не засорять код запросами к базе.
+"""
 
 from .add_user import add_user
 from .get_user import get_user

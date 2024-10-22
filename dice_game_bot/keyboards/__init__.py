@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
-"""/dice_game_bot/keyboards/__init__.py."""
+"""Все клавиатуры бота, отправляемые вместе с некоторыми сообщениями."""
 
 from . import reply

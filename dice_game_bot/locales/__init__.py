@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
-"""/dice_game_bot/locales/__init__.py"""
+"""Все текстовые данные бота.
 
-from . import answer
+Все текстовые данные бота, которые он отправляет как ответ пользователю
+(answer) или на которые реагирует (button).
+"""
+
+from . import answer, button

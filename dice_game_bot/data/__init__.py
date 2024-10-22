@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-"""/dice_game_bot/data/__init__.py."""
+"""Функции для инициализации базы данных SQLAlchemy.
 
+А так же модели БД и вспомогательные функции.
+"""
+
+from . import models
 from . import utils
 from .db_session import base, create_session, init
